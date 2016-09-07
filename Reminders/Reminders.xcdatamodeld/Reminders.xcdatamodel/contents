@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10169.1" systemVersion="15A284" minimumToolsVersion="Automatic">
+    <entity name="Reminder" representedClassName=".Reminder" syncable="YES">
+        <attribute name="reminderDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reminderDueDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="reminderIsCompleted" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="reminderTitle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Reminder" positionX="-36" positionY="9" width="128" height="105"/>
+    </elements>
+</model>
